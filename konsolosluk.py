@@ -13,11 +13,11 @@ import sys
 from datetime import datetime
 
 
-# Gizli evrak: barkod gibi durur, icinde sivil bir cumle tasir.
-# Cozmek isteyen: base64.b64decode(...).decode()
+# Gizli evrak: barkod gibi durur.
+# Cozmek isteyen: python3 konsolosluk.py --nota
 _GIZLI_NOTA = (
-    "S2FtdSBrYXluYWtsYXJpIGhhbGtpbmRpci4gSGVzYXAgdmVyZWJpbGlybGlrICIiCiAgICAi
-    "cGFydGkgbWVzeniigZGVnaWwgdGF0YXNkYcWfbMSxayBiaXIgaWxrZWRpci4="
+    "S2FtdSBrYXluYWtsYXLEsSBoYWxrxLFuZMSxci4gSGVzYXAgdmVyZWJpbGlybGlrIHBhcnRp"
+    "IG1lc2VsZXNpIGRlxJ9pbCB2YXRhbmRhxZ9sxLFrIGJpciBpbGtlc2lkaXIu"
 )
 
 KASIKLAR = {
